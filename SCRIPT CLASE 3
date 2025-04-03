@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Elementos HTML</title>
+</head>
+<body>
+
+    <!-- Encabezados: se utilizan para definir títulos y subtítulos en la página -->
+    <h1>Encabezado de Nivel 1</h1>
+    <h2>Encabezado de Nivel 2</h2>
+    <h3>Encabezado de Nivel 3</h3>
+    <!-- Continúa hasta h6 -->
+
+    <!-- Párrafo: define un bloque de texto -->
+    <p>Este es un párrafo de ejemplo que muestra cómo se presenta el texto en un párrafo estándar.</p>
+
+    <!-- Enlace: permite la navegación a otras páginas o recursos -->
+    <a href="https://www.ejemplo.com">Visita Ejemplo.com</a>
+
+    <!-- Imagen: inserta una imagen en la página -->
+    <img src="ruta/de/la/imagen.jpg" alt="Descripción de la imagen">
+
+    <!-- Lista no ordenada: crea una lista con viñetas -->
+    <ul>
+        <li>Elemento de lista 1</li>
+        <li>Elemento de lista 2</li>
+        <li>Elemento de lista 3</li>
+    </ul>
+
+    <!-- Lista ordenada: crea una lista numerada -->
+    <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ol>
+
+    <!-- Tabla: organiza datos en filas y columnas -->
+    <table>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+        </tr>
+    </table>
+
+    <!-- Formulario: recopila datos del usuario -->
+    <form action="/enviar-datos" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Comentario: añade notas en el código que no se muestran en la página -->
+    <!-- Este es un comentario que no será visible en la página web -->
+
+    <!-- División: contenedor genérico para agrupar contenido -->
+    <div>
+        <p>Contenido dentro de un div.</p>
+    </div>
+
+    <!-- Span: contenedor en línea para agrupar texto o elementos -->
+    <p>Este es un <span>texto en línea</span> dentro de un párrafo.</p>
+
+    <!-- Línea horizontal: inserta una línea horizontal -->
+    <hr>
+
+    <!-- Énfasis: resalta texto con énfasis -->
+    <p>Este es un texto con <em>énfasis</em>.</p>
+
+    <!-- Texto fuerte: resalta texto con importancia -->
+    <p>Este es un texto con <strong>importancia</strong>.</p>
+
+    <!-- Código: muestra texto como código -->
+    <p>Este es un ejemplo de código: <code>&lt;div&gt;&lt;/div&gt;</code></p>
+
+    <!-- Cita en bloque: indica una sección citada de otra fuente -->
+    <blockquote>
+        "Esta es una cita de ejemplo tomada de otra fuente."
+    </blockquote>
+
+    <!-- Línea de ruptura: inserta un salto de línea -->
+    <p>Este es un texto que incluye un salto de línea.<br>Continúa en la siguiente línea.</p>
+
+    <!-- Lista de definición: lista de términos y sus descripciones -->
+    <dl>
+        <dt>Término 1</dt>
+        <dd>Definición del término 1.</dd>
+        <dt>Término 2</dt>
+        <dd>Definición del término 2.</dd>
+    </dl>
+
+    <!-- Artículo: representa una sección independiente del contenido -->
+    <article>
+        <h2>Título del Artículo</h2>
+        <p>Contenido del artículo.</p>
+    </article>
+
+    <!-- Sección: define una sección temática en el documento -->
+    <section>
+        <h2>Título de la Sección</h2>
+        <p>Contenido de la sección.</p>
+    </section>
+
+    <!-- Encabezado: contiene información introductoria o de navegación -->
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pie de página: define el pie de página del documento o sección -->
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web</p>
+    </footer>
+
+    <!-- Aside: contenido relacionado pero independiente del contenido principal -->
+    <aside>
+        <h2>Información Adicional</h2>
+        <p>Este es un contenido adicional relacionado.</p>
+    </aside>
+
+    <!-- Detalles: widget interactivo que el usuario puede expandir o contraer -->
+    <details>
+        <summary>Más información</summary>
+        <p>Este es el contenido adicional que se muestra al expandir.</p>
+    </details>
+
+    <!-- Figura: contenido ilustrado con una leyenda -->
+    <figure>
+        <img src="imagen.jpg" alt="Descripción de la imagen">
+        <figcaption>Pie de foto describiendo la imagen.</figcaption>
+    </figure>
+
+    <!-- Video: incrusta un video en la página -->
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+
+    <!-- Audio: incrusta un archivo de audio en la página -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <!-- Enlace de correo electrónico: permite al usuario enviar un correo -->
+    <a href="mailto:ejemplo@correo.com">Enviar correo</a>
+
+    <!-- Meta: define metadatos sobre el documento -->
+    <meta name="description" content="Descripción de la página web">
+
+    <!-- Base: establece la URL base para todos los enlaces relativos -->
+    <base href="https://www.ejemplo.com/">
+
+    <!-- Script: permite la inserción de código JavaScript -->
+    <script>
+        // Este es un comentario en JavaScript
+        console.log('Hola, mundo!');
+    </script>
+
+</body>
+</html>
+
