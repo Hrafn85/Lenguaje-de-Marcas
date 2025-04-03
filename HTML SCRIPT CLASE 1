@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pau Gasol</title>
+    <meta name="description" content="Página sobre el mejor jugador de baloncesto">
+    <meta name="keyword" content="Psu Gasol, NBA, portland, Los Angeles, Memphis, Milwaukee, Barcelona">
+    <meta name="author" content="Nombre del autor: Antoni Daimiel">
+</head><!--FIN DEL SEO-->
+<body>
+    <header>
+   <h1>Pau, 20 años de leyenda</h1>
+        <nav>
+            <ul><!--LISTA DESORDENADA -->
+                    <li><a href="Biografia">Biografia</a></li>
+                    <li><a href="Equipos">Equipos</a></li>
+                    <li><a href="Logros">Logros</a></li>
+                    <li><a href="Estadisticas">Estadisticas</a></li>
+                    <li><a href="Galeria">Galeria</a></li>
+                    <li><a href="Videos">videos</a></li>
+                    <li><a href="Audios">Audios</a></li>
+                    <li><a href="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--SECCION BIOGRAFIA-->
+    <section id="Biografia">
+        <h2>   Biografia</h2><!--SUBTITULO-->
+        <p>Pau Gasol es un ex-jugador de baloncesto profesional. Campeon del mundo de la NBA y del Eurobasket</p>
+        <blockquote>"Me gustan las patatas"</blockquote>
+        <p>Rookie del año 2001</p>
+    </section>
+
+    <!--SECCION EQUIPO-->
+    <section id="equipos">
+        <ul>
+            <li>FC Barcelona</li>
+            <li>Memphis</li>
+            <li>Los Angeles</li>
+            <li>chicago</li>
+            <li>San Antonio</li>
+            <li>Milwaukee</li>
+        </ul>
+    </section>
+
+    <!--SECCION LOGROS-->
+    <section id="logros">
+        <h2>Logros y palmarés</h3>
+            <table border="1"> 
+                <tr><!---FILA-->
+                    <th>Año</th>
+                    <th>Titulo</th>
+                    <th>Equipo</th>  
+                </tr>
+                <tr>
+                    <td>2009</td>
+                    <td>NBA</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+    </section>
+<!--SECCION ESTADISTICAS-->
+<section>
+    <h2>Estadísticas de la NBA</h2>
+    <ul><!--Lista de estadísticas individuales-->
+        <li>Puntos por partido: 17.0</li>
+        <li>Rebotes por partido: 9.2</li>
+        <li>Asistencias por partido: 3.2</li>
+        <li>Partidos jugados 1226</li>
+        <li>Temporadas 19</li>
+    </ul>
+</section>
+    <!--SECCION GALERIA-->
+    <Section id="galeria">
+        <h2>Galería de imágenes</h2>
+        <figure> <!--Contenedor de imagen con descripción-->
+           <img src="IMAGNES/Pau_Gasol.jpg" alt="Pau Gasol con los Lakers"> <!--Imagen de Pau Gasol-->
+            <figcaption>
+                Pau Gasol en tres uniformes diferentes
+            </figcaption> <!--Texto debajo de la imagen-->
+        </figure>
+    </Section>
+    
+
+    <!--SECCION VIDEOS-->
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <video width="400" controls> <!--Video Pau Gasol con controles -->
+            <source src="videos/pau_gasol_highlights.mp4" type="video" type="video/mp4">
+        </video>
+    </section>
+
+    <!--SECCION AUDIOS-->
+    <section id="audio">
+        <h2>Entrevista de Pau Gasol</h2>
+        <audio controls> <!--Audio de una entrevista con controles-->
+            <source src="audio/pau_gasol_entrevista.mp3" type="audiomp3">
+
+        </audio>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto">
+        <h2>contacto</h2>
+        <form action="procesar.php" method="POST"><!--Formulario para enviar datos-->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Enviar"> <!--Botón de enviar formulario-->
+            <input type="reset" value="Borrar"> <!--Botón para resetear formulario-->
+    </section>
+</body>
+</html>
